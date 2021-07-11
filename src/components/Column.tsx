@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import { ColumnContainer, ColumnTitle } from '../styled/styled';
 
-export const Column: React.FC = () => {
+interface ColumnProps {
+  text: string
+}
+
+export const Column = ({ text }: ColumnProps): JSX.Element => {
   return (
     <ColumnContainer>
-      <ColumnTitle>Column Title</ColumnTitle>
+      <ColumnTitle>{text}</ColumnTitle>
     </ColumnContainer>
   );
 }
