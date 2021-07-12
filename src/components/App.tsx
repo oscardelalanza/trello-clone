@@ -3,7 +3,7 @@ import { AppContainer } from '../styled/styled';
 import { Column } from './Column';
 import { Card } from './Card';
 
-const App = () => {
+const App = (): JSX.Element => {
   return(
     <AppContainer>
       <Column text="To-Do">
