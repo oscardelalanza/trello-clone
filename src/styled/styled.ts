@@ -7,7 +7,7 @@ export const AppContainer = styled.div`
   flex-direction: row;
   height: 100%;
   width: 100%;
-  padding: 100%;
+  padding: 20px;
 `;
 
 export const ColumnContainer = styled.div`
